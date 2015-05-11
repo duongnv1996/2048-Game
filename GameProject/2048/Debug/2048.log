@@ -1,0 +1,30 @@
+﻿Build started 29/4/2015 15:57:12 PM.
+     1>Project "D:\Language Program\lap trinh C[C++]\GameProject\2048\2048.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\2048.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\language program\lap trinh c[c++]\gameproject\2048\source.cpp(145): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\language program\lap trinh c[c++]\gameproject\2048\source.cpp(643): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\language program\lap trinh c[c++]\gameproject\2048\source.cpp(847): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+     1>d:\language program\lap trinh c[c++]\gameproject\2048\source.cpp(910): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+     1>d:\language program\lap trinh c[c++]\gameproject\2048\source.cpp(638): warning C4715: 'getKey' : not all control paths return a value
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Language Program\lap trinh C[C++]\GameProject\Debug\2048.exe" /INCREMENTAL:NO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Language Program\lap trinh C[C++]\GameProject\Debug\2048.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Language Program\lap trinh C[C++]\GameProject\Debug\2048.lib" /MACHINE:X86 Debug\Source.obj
+         Microsoft (R) Incremental Linker Version 11.00.50727.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         "/OUT:D:\Language Program\lap trinh C[C++]\GameProject\Debug\2048.exe" /INCREMENTAL:NO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG "/PDB:D:\Language Program\lap trinh C[C++]\GameProject\Debug\2048.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:D:\Language Program\lap trinh C[C++]\GameProject\Debug\2048.lib" /MACHINE:X86 Debug\Source.obj 
+     1>Source.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         2048.vcxproj -> D:\Language Program\lap trinh C[C++]\GameProject\Debug\2048.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\2048.unsuccessfulbuild".
+         Touching "Debug\2048.lastbuildstate".
+     1>Done Building Project "D:\Language Program\lap trinh C[C++]\GameProject\2048\2048.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.14
